@@ -1,0 +1,23 @@
+canvas {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: unset;
+    border: 3px solid palegreen;
+
+}
+
+body {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+*, *::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
